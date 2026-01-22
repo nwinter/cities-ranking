@@ -28,6 +28,16 @@ Development log documenting prompts and design decisions.
 **Changes**:
 - Initialized SvelteKit project with Vercel adapter
 - Added Tailwind CSS v4
-- Created AI agent scaffolding
-- Built interactive ranking dashboard
-- Deployed to cities.nickwinter.net
+- Created AI agent scaffolding (AGENTS.md, CLAUDE.md)
+- Built interactive ranking dashboard with:
+  - 50 largest US cities data
+  - Sortable columns for all metrics
+  - Search/filter functionality
+  - Color-coded rank badges (quintiles)
+  - Composite score (35% homeless, 30% cost, 35% crime)
+- Unit tests for data module (9 tests passing)
+- Deployed to Vercel at cities.nickwinter.net
+
+**Result**: https://cities.nickwinter.net is live with the interactive dashboard.
+
+**GitHub**: https://github.com/nwinter/cities-ranking
